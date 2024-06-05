@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.notification-container {
+    position: relative; 
+    width: 100vw;
+    height: 100vh;
+}
+
+.notification {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute; 
+    max-width: 300px; 
+    text-transform: uppercase;
+}
+
+.notification .delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4c4c;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+}
+
+/* styles for notifications */
+.notification-style-1 {
+    background-color: #e0f7fa;
+    color: #006064;
+    border-color: #006064;
+}
+
+.notification-style-2 {
+    background-color: #fce4ec;
+    color: #880e4f;
+    border-color: #880e4f;
+}
+
+.notification-style-3 {
+    background-color: #f3e5f5;
+    color: #4a148c;
+    border-color: #4a148c;
+}
+
+.notification-style-4 {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+.notification-style-5 {
+    background-color: #fff3e0;
+    color: #e65100;
+    border-color: #e65100;
+}
+
+
+.notification-style-6 {
+    background-color: #ffeb3b;
+    color: #f57f17;
+    border-color: #f57f17;
+}
+
+.notification-style-7 {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+.notification-style-8 {
+    background-color: #ffcdd2;
+    color: #c62828;
+    border-color: #c62828;
+}
+
+.notification-style-9 {
+    background-color: #bbdefb;
+    color: #1565c0;
+    border-color: #1565c0;
+}
+
+.notification-style-10 {
+    background-color: #d1c4e9;
+    color: #6a1b9a;
+    border-color: #6a1b9a;
+}
+
+.notification-style-11 {
+    background-color: #ffccbc;
+    color: #bf360c;
+    border-color: #bf360c;
+}
+
+.notification-style-12 {
+    background-color: #c5cae9;
+    color: #283593;
+    border-color: #283593;
+}
+
+.notification-style-13 {
+    background-color: #b2dfdb;
+    color: #004d40;
+    border-color: #004d40;
+}
+
+.notification-style-14 {
+    background-color: #f8bbd0;
+    color: #ad1457;
+    border-color: #ad1457;
+}
+
+.notification-style-15 {
+    background-color: #d7ccc8;
+    color: #4e342e;
+    border-color: #4e342e;
+}
+
+.notification-style-16 {
+    background-color: #ffe0b2;
+    color: #ef6c00;
+    border-color: #ef6c00;
+}
+
+.notification-style-17 {
+    background-color: #dcedc8;
+    color: #558b2f;
+    border-color: #558b2f;
+}
+
+.notification-style-18 {
+    background-color: #f1f8e9;
+    color: #7cb342;
+    border-color: #7cb342;
+}
+
+.notification-style-19 {
+    background-color: #f3e5f5;
+    color: #8e24aa;
+    border-color: #8e24aa;
+}
+
+.notification-style-20 {
+    background-color: #ede7f6;
+    color: #5e35b1;
+    border-color: #5e35b1;
+}
+
+/* font families */
+.font-1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.font-2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.font-3 {
+    font-family: 'Georgia', serif;
+}
+
+.font-4 {
+    font-family: 'Verdana', Geneva, sans-serif;
+}
+
+.font-5 {
+    font-family: 'Tahoma', Geneva, sans-serif;
+}
+
+/* font sizes */
+.font-size-1 {
+    font-size: 12px;
+}
+
+.font-size-2 {
+    font-size: 14px;
+}
+
+.font-size-3 {
+    font-size: 16px;
+}
+
+.font-size-4 {
+    font-size: 18px;
+}
+
+.font-size-5 {
+    font-size: 20px;
+}
